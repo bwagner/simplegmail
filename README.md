@@ -209,7 +209,7 @@ message = messages[0]
 if message.attachments:
     for attm in message.attachments:
         print('File: ' + attm.filename)
-        attm.save()  # downloads and saves each attachment under it's stored
+        attm.save()  # downloads and saves each attachment under its stored
                      # filename. You can download without saving with `attm.download()`
 
 ```
